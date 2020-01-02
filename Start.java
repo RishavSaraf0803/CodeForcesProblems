@@ -61,7 +61,8 @@ public class Start {
 	                    }
 	                    String n2out = rs.getString("node2_outtime");
 	                    if (n2out != null) {
-	                        n2out = "'" + n2out + "'";
+	                        n2out = "'" + n2out + "'"  ;
+
 	                }
 	                    String n3 = rs.getString("node3");
 	                    String n3in = rs.getString("node3_intime");
